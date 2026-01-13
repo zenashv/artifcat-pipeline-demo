@@ -29,7 +29,7 @@ pipeline{
       steps {
         echo 'Generating build report'
         bat '''
-        mkdir report
+        mkdir reports
         echo Build Successful > reports\\build-report.txt
         '''
         
