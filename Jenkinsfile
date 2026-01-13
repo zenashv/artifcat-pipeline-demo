@@ -14,7 +14,7 @@ pipeline{
       steps {
         echo 'Checking Code Quality'
         bat '''
-        findstr GOOD quality.txt > nul
+        findstr GOOD Quality.txt > nul
         if errorlevel 1 (
               echo Code Quality Failed
               exit 1
