@@ -42,6 +42,7 @@ pipeline{
         archiveArtifacts artifacts: 'reports/*.txt', fingerprint: true
       }
   }
+  }
     post {
       success {
         echo 'Pipeline completed successfully'
